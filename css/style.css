@@ -1,0 +1,106 @@
+            ul {
+                list-style: none;
+            }
+            a {
+                text-decoration-line: none;
+            }
+            /* header css */
+            header {
+                width: 1100px;
+                height: 100px;
+            }
+            #logo {
+                float: left;
+                width: 130px;
+                height: 70px;
+                margin: 20px 50px;
+            }
+            nav {
+                display: inline-block;
+                width: 740px;
+                height: 30px;
+                margin: 40px 50px;
+            }
+            nav ul {
+                display: flex;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+            }
+            nav li {
+                display: inline;
+                margin: 0px 20px;
+            }
+            nav li a {
+                color: black;
+                font-weight: 500;
+            }
+            /* slider css */
+            #slider {
+                width: 1100px;
+                height: 450px;
+            }
+            /* section css  */
+            section {
+                width: 1100px;
+                height: 280px;
+            }
+            article {
+                display: inline-block;
+                width: 340px;
+                height: 145px;
+                margin: 50px 10px;
+                vertical-align: top;
+                align-items: center;
+            }
+            article span {
+                display: inline;
+                color: black;
+                font-weight: 500;
+            }
+            article div {
+                display: block;
+            }
+            article #side {
+                display: block;
+            }
+            article img {
+                float: left;
+            }
+            article p {
+                margin-top: 5px;
+                display: block;
+                color: gray;
+                font-size: 14px;
+            }
+            article .help {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                margin-bottom: 10px;
+            }
+            article .help2 {
+                display: block;
+            }
+            .support-items-container {
+                display: flex;
+                justify-content: space-around; 
+                align-items: flex-start; 
+                margin-top: 15px; 
+            }
+            .support-items-container p {
+                font-size: 13px;
+            }
+            /* footer css  */
+            footer {
+                width: 1100px;
+                height: 100px;
+                background-color: gainsboro;
+                display: flex;
+                align-items: center;
+            }
+            footer span {
+                margin-left: 100px;
+                font-size: 10px;
+                color: gray;
+            }
